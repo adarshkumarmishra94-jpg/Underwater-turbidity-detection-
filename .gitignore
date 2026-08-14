@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Datasets (symlinks only in repo)
+datasets/
+
+# Checkpoints & Large Model Files
+*.pt
+*.onnx
+checkpoints/
+final_checkpoints/
+!final_checkpoints/README.md
+
+# Logs
+logs/*.log
+logs/*.pid
+
+# WandB local
+wandb/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache
+*.cache
+.cache/
+
+# Runs (ultralytics default output)
+runs/
+
+# Temporary files
+*.tmp
+*.bak
