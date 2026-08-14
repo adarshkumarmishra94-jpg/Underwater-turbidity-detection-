@@ -1,0 +1,3054 @@
+[
+  {
+    "model": "yolov3u",
+    "family": "yolov3",
+    "size": "large",
+    "dataset": "infra",
+    "status": "success",
+    "error": null,
+    "mAP50": 0.0083,
+    "mAP50_95": 0.0031,
+    "precision": 0.0297,
+    "recall": 0.0575,
+    "inference_time_s": 37.6,
+    "per_class": {
+      "crack": {
+        "ap50": 0.0166,
+        "ap50_95": 0.0062
+      },
+      "corrosion": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      }
+    }
+  },
+  {
+    "model": "yolov3-tinyu",
+    "family": "yolov3",
+    "size": "tiny",
+    "dataset": "infra",
+    "timestamp": "2026-08-06 09:27:04",
+    "mAP50": 0.003,
+    "mAP50_95": 0.0009,
+    "precision": 0.0142,
+    "recall": 0.0442,
+    "eval_time_s": 13.7,
+    "per_class": {
+      "crack": {
+        "ap50": 0.0061,
+        "ap50_95": 0.0017
+      },
+      "corrosion": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov5nu",
+    "family": "yolov5",
+    "size": "nano",
+    "dataset": "infra",
+    "timestamp": "2026-08-06 09:27:18",
+    "mAP50": 0.0138,
+    "mAP50_95": 0.0062,
+    "precision": 0.0553,
+    "recall": 0.1233,
+    "eval_time_s": 12.9,
+    "per_class": {
+      "crack": {
+        "ap50": 0.0235,
+        "ap50_95": 0.009
+      },
+      "corrosion": {
+        "ap50": 0.0042,
+        "ap50_95": 0.0033
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov5su",
+    "family": "yolov5",
+    "size": "small",
+    "dataset": "infra",
+    "timestamp": "2026-08-06 09:27:31",
+    "mAP50": 0.009,
+    "mAP50_95": 0.0026,
+    "precision": 0.0498,
+    "recall": 0.0809,
+    "eval_time_s": 13.2,
+    "per_class": {
+      "crack": {
+        "ap50": 0.0167,
+        "ap50_95": 0.0044
+      },
+      "corrosion": {
+        "ap50": 0.0013,
+        "ap50_95": 0.0009
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov5mu",
+    "family": "yolov5",
+    "size": "medium",
+    "dataset": "infra",
+    "status": "success",
+    "error": null,
+    "mAP50": 0.0065,
+    "mAP50_95": 0.0035,
+    "precision": 0.077,
+    "recall": 0.0714,
+    "inference_time_s": 14.3,
+    "per_class": {
+      "crack": {
+        "ap50": 0.0094,
+        "ap50_95": 0.0035
+      },
+      "corrosion": {
+        "ap50": 0.0036,
+        "ap50_95": 0.0036
+      }
+    }
+  },
+  {
+    "model": "yolov5lu",
+    "family": "yolov5",
+    "size": "large",
+    "dataset": "infra",
+    "timestamp": "2026-08-06 09:27:44",
+    "mAP50": 0.007,
+    "mAP50_95": 0.0028,
+    "precision": 0.0267,
+    "recall": 0.0479,
+    "eval_time_s": 17.3,
+    "per_class": {
+      "crack": {
+        "ap50": 0.0141,
+        "ap50_95": 0.0056
+      },
+      "corrosion": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov5xu",
+    "family": "yolov5",
+    "size": "xlarge",
+    "dataset": "infra",
+    "timestamp": "2026-08-06 09:48:26",
+    "mAP50": 0.0068,
+    "mAP50_95": 0.0042,
+    "precision": 0.0148,
+    "recall": 0.0435,
+    "eval_time_s": 21.6,
+    "per_class": {
+      "crack": {
+        "ap50": 0.0136,
+        "ap50_95": 0.0084
+      },
+      "corrosion": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov8n",
+    "family": "yolov8",
+    "size": "nano",
+    "dataset": "infra",
+    "timestamp": "2026-08-06 09:53:38",
+    "mAP50": 0.011,
+    "mAP50_95": 0.0038,
+    "precision": 0.06,
+    "recall": 0.1195,
+    "eval_time_s": 13.4,
+    "per_class": {
+      "crack": {
+        "ap50": 0.0188,
+        "ap50_95": 0.005
+      },
+      "corrosion": {
+        "ap50": 0.0032,
+        "ap50_95": 0.0027
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov8s",
+    "family": "yolov8",
+    "size": "small",
+    "dataset": "infra",
+    "timestamp": "2026-08-06 09:53:52",
+    "mAP50": 0.004,
+    "mAP50_95": 0.0018,
+    "precision": 0.034,
+    "recall": 0.0584,
+    "eval_time_s": 13.9,
+    "per_class": {
+      "crack": {
+        "ap50": 0.0061,
+        "ap50_95": 0.002
+      },
+      "corrosion": {
+        "ap50": 0.0019,
+        "ap50_95": 0.0016
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov8m",
+    "family": "yolov8",
+    "size": "medium",
+    "dataset": "infra",
+    "timestamp": "2026-08-06 09:58:39",
+    "mAP50": 0.0062,
+    "mAP50_95": 0.0022,
+    "precision": 0.0393,
+    "recall": 0.0629,
+    "eval_time_s": 15.4,
+    "per_class": {
+      "crack": {
+        "ap50": 0.0116,
+        "ap50_95": 0.004
+      },
+      "corrosion": {
+        "ap50": 0.0009,
+        "ap50_95": 0.0004
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov8l",
+    "family": "yolov8",
+    "size": "large",
+    "dataset": "infra",
+    "timestamp": "2026-08-06 10:06:32",
+    "mAP50": 0.0084,
+    "mAP50_95": 0.0046,
+    "precision": 0.0217,
+    "recall": 0.0442,
+    "eval_time_s": 17.3,
+    "per_class": {
+      "crack": {
+        "ap50": 0.0169,
+        "ap50_95": 0.0092
+      },
+      "corrosion": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov8x",
+    "family": "yolov8",
+    "size": "xlarge",
+    "dataset": "infra",
+    "timestamp": "2026-08-06 10:19:57",
+    "mAP50": 0.0047,
+    "mAP50_95": 0.003,
+    "precision": 0.0196,
+    "recall": 0.0452,
+    "eval_time_s": 20.9,
+    "per_class": {
+      "crack": {
+        "ap50": 0.009,
+        "ap50_95": 0.0057
+      },
+      "corrosion": {
+        "ap50": 0.0004,
+        "ap50_95": 0.0004
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov9t",
+    "family": "yolov9",
+    "size": "tiny",
+    "dataset": "infra",
+    "timestamp": "2026-08-06 10:35:27",
+    "mAP50": 0.0123,
+    "mAP50_95": 0.0046,
+    "precision": 0.0523,
+    "recall": 0.1182,
+    "eval_time_s": 13.9,
+    "per_class": {
+      "crack": {
+        "ap50": 0.0238,
+        "ap50_95": 0.0087
+      },
+      "corrosion": {
+        "ap50": 0.0008,
+        "ap50_95": 0.0005
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov9s",
+    "family": "yolov9",
+    "size": "small",
+    "dataset": "infra",
+    "timestamp": "2026-08-06 10:38:39",
+    "mAP50": 0.0119,
+    "mAP50_95": 0.006,
+    "precision": 0.0637,
+    "recall": 0.0978,
+    "eval_time_s": 14.0,
+    "per_class": {
+      "crack": {
+        "ap50": 0.0182,
+        "ap50_95": 0.0082
+      },
+      "corrosion": {
+        "ap50": 0.0056,
+        "ap50_95": 0.0038
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov9m",
+    "family": "yolov9",
+    "size": "medium",
+    "dataset": "infra",
+    "timestamp": "2026-08-06 10:41:18",
+    "mAP50": 0.0076,
+    "mAP50_95": 0.0029,
+    "precision": 0.051,
+    "recall": 0.0549,
+    "eval_time_s": 16.0,
+    "per_class": {
+      "crack": {
+        "ap50": 0.0151,
+        "ap50_95": 0.0057
+      },
+      "corrosion": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov9c",
+    "family": "yolov9",
+    "size": "compact",
+    "dataset": "infra",
+    "timestamp": "2026-08-06 10:48:08",
+    "mAP50": 0.0126,
+    "mAP50_95": 0.0071,
+    "precision": 0.1095,
+    "recall": 0.0607,
+    "eval_time_s": 17.0,
+    "per_class": {
+      "crack": {
+        "ap50": 0.0169,
+        "ap50_95": 0.0067
+      },
+      "corrosion": {
+        "ap50": 0.0083,
+        "ap50_95": 0.0075
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov9e",
+    "family": "yolov9",
+    "size": "extended",
+    "dataset": "infra",
+    "timestamp": "2026-08-06 10:55:04",
+    "mAP50": 0.0091,
+    "mAP50_95": 0.0057,
+    "precision": 0.0975,
+    "recall": 0.0511,
+    "eval_time_s": 24.1,
+    "per_class": {
+      "crack": {
+        "ap50": 0.0131,
+        "ap50_95": 0.0064
+      },
+      "corrosion": {
+        "ap50": 0.005,
+        "ap50_95": 0.005
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov10n",
+    "family": "yolov10",
+    "size": "nano",
+    "dataset": "infra",
+    "timestamp": "2026-08-06 11:11:31",
+    "mAP50": 0.0074,
+    "mAP50_95": 0.0022,
+    "precision": 0.0361,
+    "recall": 0.0516,
+    "eval_time_s": 11.5,
+    "per_class": {
+      "crack": {
+        "ap50": 0.0149,
+        "ap50_95": 0.0044
+      },
+      "corrosion": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov10s",
+    "family": "yolov10",
+    "size": "small",
+    "dataset": "infra",
+    "timestamp": "2026-08-06 11:14:39",
+    "mAP50": 0.0167,
+    "mAP50_95": 0.0081,
+    "precision": 0.1951,
+    "recall": 0.0602,
+    "eval_time_s": 13.2,
+    "per_class": {
+      "crack": {
+        "ap50": 0.0153,
+        "ap50_95": 0.0065
+      },
+      "corrosion": {
+        "ap50": 0.018,
+        "ap50_95": 0.0097
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov10m",
+    "family": "yolov10",
+    "size": "medium",
+    "dataset": "infra",
+    "timestamp": "2026-08-06 11:16:52",
+    "mAP50": 0.0054,
+    "mAP50_95": 0.0033,
+    "precision": 0.0434,
+    "recall": 0.0262,
+    "eval_time_s": 13.4,
+    "per_class": {
+      "crack": {
+        "ap50": 0.0108,
+        "ap50_95": 0.0067
+      },
+      "corrosion": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov10b",
+    "family": "yolov10",
+    "size": "balanced",
+    "dataset": "infra",
+    "timestamp": "2026-08-06 11:23:27",
+    "mAP50": 0.0055,
+    "mAP50_95": 0.0032,
+    "precision": 0.0246,
+    "recall": 0.0262,
+    "eval_time_s": 14.6,
+    "per_class": {
+      "crack": {
+        "ap50": 0.0109,
+        "ap50_95": 0.0064
+      },
+      "corrosion": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov10l",
+    "family": "yolov10",
+    "size": "large",
+    "dataset": "infra",
+    "timestamp": "2026-08-06 11:28:35",
+    "mAP50": 0.0074,
+    "mAP50_95": 0.0038,
+    "precision": 0.0518,
+    "recall": 0.0324,
+    "eval_time_s": 16.1,
+    "per_class": {
+      "crack": {
+        "ap50": 0.0147,
+        "ap50_95": 0.0077
+      },
+      "corrosion": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov10x",
+    "family": "yolov10",
+    "size": "xlarge",
+    "dataset": "infra",
+    "timestamp": "2026-08-06 11:35:49",
+    "mAP50": 0.0084,
+    "mAP50_95": 0.0047,
+    "precision": 0.0258,
+    "recall": 0.0354,
+    "eval_time_s": 18.8,
+    "per_class": {
+      "crack": {
+        "ap50": 0.0168,
+        "ap50_95": 0.0093
+      },
+      "corrosion": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolo11n",
+    "family": "yolo11",
+    "size": "nano",
+    "dataset": "infra",
+    "timestamp": "2026-08-06 11:43:23",
+    "mAP50": 0.0106,
+    "mAP50_95": 0.0037,
+    "precision": 0.0286,
+    "recall": 0.1099,
+    "eval_time_s": 13.2,
+    "per_class": {
+      "crack": {
+        "ap50": 0.0187,
+        "ap50_95": 0.0057
+      },
+      "corrosion": {
+        "ap50": 0.0026,
+        "ap50_95": 0.0016
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolo11s",
+    "family": "yolo11",
+    "size": "small",
+    "dataset": "infra",
+    "timestamp": "2026-08-06 11:44:08",
+    "mAP50": 0.0082,
+    "mAP50_95": 0.0044,
+    "precision": 0.0411,
+    "recall": 0.0541,
+    "eval_time_s": 13.9,
+    "per_class": {
+      "crack": {
+        "ap50": 0.015,
+        "ap50_95": 0.0075
+      },
+      "corrosion": {
+        "ap50": 0.0013,
+        "ap50_95": 0.0013
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolo11m",
+    "family": "yolo11",
+    "size": "medium",
+    "dataset": "infra",
+    "timestamp": "2026-08-06 11:48:36",
+    "mAP50": 0.0144,
+    "mAP50_95": 0.0074,
+    "precision": 0.0901,
+    "recall": 0.0851,
+    "eval_time_s": 15.9,
+    "per_class": {
+      "crack": {
+        "ap50": 0.0177,
+        "ap50_95": 0.0083
+      },
+      "corrosion": {
+        "ap50": 0.0111,
+        "ap50_95": 0.0066
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolo11l",
+    "family": "yolo11",
+    "size": "large",
+    "dataset": "infra",
+    "timestamp": "2026-08-06 11:53:05",
+    "mAP50": 0.0053,
+    "mAP50_95": 0.0029,
+    "precision": 0.0459,
+    "recall": 0.028,
+    "eval_time_s": 17.0,
+    "per_class": {
+      "crack": {
+        "ap50": 0.0106,
+        "ap50_95": 0.0058
+      },
+      "corrosion": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolo11x",
+    "family": "yolo11",
+    "size": "xlarge",
+    "dataset": "infra",
+    "timestamp": "2026-08-06 11:58:44",
+    "mAP50": 0.0083,
+    "mAP50_95": 0.0029,
+    "precision": 0.1347,
+    "recall": 0.043,
+    "eval_time_s": 62.4,
+    "per_class": {
+      "crack": {
+        "ap50": 0.0117,
+        "ap50_95": 0.0049
+      },
+      "corrosion": {
+        "ap50": 0.005,
+        "ap50_95": 0.001
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov3u",
+    "family": "yolov3",
+    "size": "large",
+    "dataset": "survivor",
+    "timestamp": "2026-08-06 12:11:33",
+    "mAP50": 0.4358,
+    "mAP50_95": 0.2708,
+    "precision": 0.6871,
+    "recall": 0.3495,
+    "eval_time_s": 20.1,
+    "per_class": {
+      "person": {
+        "ap50": 0.4358,
+        "ap50_95": 0.2708
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov3-tinyu",
+    "family": "yolov3",
+    "size": "tiny",
+    "dataset": "survivor",
+    "timestamp": "2026-08-06 12:11:54",
+    "mAP50": 0.1886,
+    "mAP50_95": 0.0899,
+    "precision": 0.4847,
+    "recall": 0.1862,
+    "eval_time_s": 14.3,
+    "per_class": {
+      "person": {
+        "ap50": 0.1886,
+        "ap50_95": 0.0899
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov5nu",
+    "family": "yolov5",
+    "size": "nano",
+    "dataset": "survivor",
+    "timestamp": "2026-08-06 12:12:08",
+    "mAP50": 0.2415,
+    "mAP50_95": 0.1321,
+    "precision": 0.4997,
+    "recall": 0.195,
+    "eval_time_s": 13.9,
+    "per_class": {
+      "person": {
+        "ap50": 0.2415,
+        "ap50_95": 0.1321
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov5su",
+    "family": "yolov5",
+    "size": "small",
+    "dataset": "survivor",
+    "timestamp": "2026-08-06 12:12:22",
+    "mAP50": 0.3571,
+    "mAP50_95": 0.1846,
+    "precision": 0.6349,
+    "recall": 0.3394,
+    "eval_time_s": 15.7,
+    "per_class": {
+      "person": {
+        "ap50": 0.3571,
+        "ap50_95": 0.1846
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov5mu",
+    "family": "yolov5",
+    "size": "medium",
+    "dataset": "survivor",
+    "timestamp": "2026-08-06 12:12:38",
+    "mAP50": 0.396,
+    "mAP50_95": 0.2518,
+    "precision": 0.6683,
+    "recall": 0.2905,
+    "eval_time_s": 16.0,
+    "per_class": {
+      "person": {
+        "ap50": 0.396,
+        "ap50_95": 0.2518
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov5lu",
+    "family": "yolov5",
+    "size": "large",
+    "dataset": "survivor",
+    "timestamp": "2026-08-06 12:17:28",
+    "mAP50": 0.4228,
+    "mAP50_95": 0.2564,
+    "precision": 0.6518,
+    "recall": 0.3273,
+    "eval_time_s": 17.2,
+    "per_class": {
+      "person": {
+        "ap50": 0.4228,
+        "ap50_95": 0.2564
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov5xu",
+    "family": "yolov5",
+    "size": "xlarge",
+    "dataset": "survivor",
+    "timestamp": "2026-08-06 12:17:45",
+    "mAP50": 0.4161,
+    "mAP50_95": 0.2464,
+    "precision": 0.6581,
+    "recall": 0.3243,
+    "eval_time_s": 19.8,
+    "per_class": {
+      "person": {
+        "ap50": 0.4161,
+        "ap50_95": 0.2464
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov8n",
+    "family": "yolov8",
+    "size": "nano",
+    "dataset": "survivor",
+    "timestamp": "2026-08-06 12:18:05",
+    "mAP50": 0.2757,
+    "mAP50_95": 0.1653,
+    "precision": 0.5561,
+    "recall": 0.2295,
+    "eval_time_s": 15.1,
+    "per_class": {
+      "person": {
+        "ap50": 0.2757,
+        "ap50_95": 0.1653
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov8s",
+    "family": "yolov8",
+    "size": "small",
+    "dataset": "survivor",
+    "timestamp": "2026-08-06 12:18:21",
+    "mAP50": 0.302,
+    "mAP50_95": 0.1817,
+    "precision": 0.6378,
+    "recall": 0.2553,
+    "eval_time_s": 15.4,
+    "per_class": {
+      "person": {
+        "ap50": 0.302,
+        "ap50_95": 0.1817
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov8m",
+    "family": "yolov8",
+    "size": "medium",
+    "dataset": "survivor",
+    "timestamp": "2026-08-06 12:18:36",
+    "mAP50": 0.4058,
+    "mAP50_95": 0.2237,
+    "precision": 0.6336,
+    "recall": 0.3303,
+    "eval_time_s": 16.8,
+    "per_class": {
+      "person": {
+        "ap50": 0.4058,
+        "ap50_95": 0.2237
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov8l",
+    "family": "yolov8",
+    "size": "large",
+    "dataset": "survivor",
+    "timestamp": "2026-08-06 12:18:53",
+    "mAP50": 0.3737,
+    "mAP50_95": 0.2158,
+    "precision": 0.611,
+    "recall": 0.3243,
+    "eval_time_s": 17.5,
+    "per_class": {
+      "person": {
+        "ap50": 0.3737,
+        "ap50_95": 0.2158
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov8x",
+    "family": "yolov8",
+    "size": "xlarge",
+    "dataset": "survivor",
+    "timestamp": "2026-08-06 12:19:11",
+    "mAP50": 0.3898,
+    "mAP50_95": 0.2384,
+    "precision": 0.7075,
+    "recall": 0.3269,
+    "eval_time_s": 18.9,
+    "per_class": {
+      "person": {
+        "ap50": 0.3898,
+        "ap50_95": 0.2384
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov9t",
+    "family": "yolov9",
+    "size": "tiny",
+    "dataset": "survivor",
+    "timestamp": "2026-08-06 12:19:30",
+    "mAP50": 0.3297,
+    "mAP50_95": 0.1922,
+    "precision": 0.4917,
+    "recall": 0.2992,
+    "eval_time_s": 16.3,
+    "per_class": {
+      "person": {
+        "ap50": 0.3297,
+        "ap50_95": 0.1922
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov9s",
+    "family": "yolov9",
+    "size": "small",
+    "dataset": "survivor",
+    "timestamp": "2026-08-06 12:19:46",
+    "mAP50": 0.3195,
+    "mAP50_95": 0.191,
+    "precision": 0.5509,
+    "recall": 0.2853,
+    "eval_time_s": 16.4,
+    "per_class": {
+      "person": {
+        "ap50": 0.3195,
+        "ap50_95": 0.191
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov9m",
+    "family": "yolov9",
+    "size": "medium",
+    "dataset": "survivor",
+    "timestamp": "2026-08-06 12:20:03",
+    "mAP50": 0.3367,
+    "mAP50_95": 0.2079,
+    "precision": 0.6548,
+    "recall": 0.2462,
+    "eval_time_s": 16.6,
+    "per_class": {
+      "person": {
+        "ap50": 0.3367,
+        "ap50_95": 0.2079
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov9c",
+    "family": "yolov9",
+    "size": "compact",
+    "dataset": "survivor",
+    "timestamp": "2026-08-06 12:20:19",
+    "mAP50": 0.3382,
+    "mAP50_95": 0.1982,
+    "precision": 0.6298,
+    "recall": 0.2673,
+    "eval_time_s": 17.4,
+    "per_class": {
+      "person": {
+        "ap50": 0.3382,
+        "ap50_95": 0.1982
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov9e",
+    "family": "yolov9",
+    "size": "extended",
+    "dataset": "survivor",
+    "timestamp": "2026-08-06 12:20:37",
+    "mAP50": 0.3988,
+    "mAP50_95": 0.2437,
+    "precision": 0.6456,
+    "recall": 0.3501,
+    "eval_time_s": 19.3,
+    "per_class": {
+      "person": {
+        "ap50": 0.3988,
+        "ap50_95": 0.2437
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov10n",
+    "family": "yolov10",
+    "size": "nano",
+    "dataset": "survivor",
+    "timestamp": "2026-08-06 12:20:57",
+    "mAP50": 0.3293,
+    "mAP50_95": 0.2019,
+    "precision": 0.5932,
+    "recall": 0.2583,
+    "eval_time_s": 13.4,
+    "per_class": {
+      "person": {
+        "ap50": 0.3293,
+        "ap50_95": 0.2019
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov10s",
+    "family": "yolov10",
+    "size": "small",
+    "dataset": "survivor",
+    "timestamp": "2026-08-06 12:21:10",
+    "mAP50": 0.3735,
+    "mAP50_95": 0.2335,
+    "precision": 0.5891,
+    "recall": 0.3303,
+    "eval_time_s": 13.4,
+    "per_class": {
+      "person": {
+        "ap50": 0.3735,
+        "ap50_95": 0.2335
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov10m",
+    "family": "yolov10",
+    "size": "medium",
+    "dataset": "survivor",
+    "timestamp": "2026-08-06 12:21:23",
+    "mAP50": 0.385,
+    "mAP50_95": 0.2361,
+    "precision": 0.6056,
+    "recall": 0.332,
+    "eval_time_s": 13.7,
+    "per_class": {
+      "person": {
+        "ap50": 0.385,
+        "ap50_95": 0.2361
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov10b",
+    "family": "yolov10",
+    "size": "balanced",
+    "dataset": "survivor",
+    "timestamp": "2026-08-06 12:21:37",
+    "mAP50": 0.3718,
+    "mAP50_95": 0.2309,
+    "precision": 0.6134,
+    "recall": 0.3333,
+    "eval_time_s": 13.7,
+    "per_class": {
+      "person": {
+        "ap50": 0.3718,
+        "ap50_95": 0.2309
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov10l",
+    "family": "yolov10",
+    "size": "large",
+    "dataset": "survivor",
+    "timestamp": "2026-08-06 12:21:51",
+    "mAP50": 0.3843,
+    "mAP50_95": 0.235,
+    "precision": 0.5731,
+    "recall": 0.3483,
+    "eval_time_s": 11.9,
+    "per_class": {
+      "person": {
+        "ap50": 0.3843,
+        "ap50_95": 0.235
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov10x",
+    "family": "yolov10",
+    "size": "xlarge",
+    "dataset": "survivor",
+    "timestamp": "2026-08-06 12:22:03",
+    "mAP50": 0.3821,
+    "mAP50_95": 0.2175,
+    "precision": 0.5548,
+    "recall": 0.3664,
+    "eval_time_s": 10.1,
+    "per_class": {
+      "person": {
+        "ap50": 0.3821,
+        "ap50_95": 0.2175
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolo11n",
+    "family": "yolo11",
+    "size": "nano",
+    "dataset": "survivor",
+    "timestamp": "2026-08-06 12:22:14",
+    "mAP50": 0.2905,
+    "mAP50_95": 0.1571,
+    "precision": 0.5254,
+    "recall": 0.2553,
+    "eval_time_s": 15.0,
+    "per_class": {
+      "person": {
+        "ap50": 0.2905,
+        "ap50_95": 0.1571
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolo11s",
+    "family": "yolo11",
+    "size": "small",
+    "dataset": "survivor",
+    "timestamp": "2026-08-06 12:22:29",
+    "mAP50": 0.4402,
+    "mAP50_95": 0.244,
+    "precision": 0.5966,
+    "recall": 0.4054,
+    "eval_time_s": 16.0,
+    "per_class": {
+      "person": {
+        "ap50": 0.4402,
+        "ap50_95": 0.244
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolo11m",
+    "family": "yolo11",
+    "size": "medium",
+    "dataset": "survivor",
+    "timestamp": "2026-08-06 12:22:45",
+    "mAP50": 0.4281,
+    "mAP50_95": 0.2271,
+    "precision": 0.5945,
+    "recall": 0.4054,
+    "eval_time_s": 16.8,
+    "per_class": {
+      "person": {
+        "ap50": 0.4281,
+        "ap50_95": 0.2271
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolo11l",
+    "family": "yolo11",
+    "size": "large",
+    "dataset": "survivor",
+    "timestamp": "2026-08-06 12:23:02",
+    "mAP50": 0.4257,
+    "mAP50_95": 0.2411,
+    "precision": 0.6029,
+    "recall": 0.383,
+    "eval_time_s": 17.5,
+    "per_class": {
+      "person": {
+        "ap50": 0.4257,
+        "ap50_95": 0.2411
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolo11x",
+    "family": "yolo11",
+    "size": "xlarge",
+    "dataset": "survivor",
+    "timestamp": "2026-08-06 12:23:20",
+    "mAP50": 0.3763,
+    "mAP50_95": 0.2253,
+    "precision": 0.604,
+    "recall": 0.3483,
+    "eval_time_s": 19.2,
+    "per_class": {
+      "person": {
+        "ap50": 0.3763,
+        "ap50_95": 0.2253
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov3u",
+    "family": "yolov3",
+    "size": "large",
+    "dataset": "combined",
+    "timestamp": "2026-08-06 12:23:39",
+    "mAP50": 0.0118,
+    "mAP50_95": 0.0062,
+    "precision": 0.016,
+    "recall": 0.0241,
+    "eval_time_s": 182.9,
+    "per_class": {
+      "holothurian": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "echinus": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "scallop": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "starfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "small_fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "crab": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "shrimp": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "jellyfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "bio": {
+        "ap50": 0.0003,
+        "ap50_95": 0.0001
+      },
+      "cloth": {
+        "ap50": 0.0073,
+        "ap50_95": 0.0037
+      },
+      "fishing": {
+        "ap50": 0.146,
+        "ap50_95": 0.0764
+      },
+      "metal": {
+        "ap50": 0.0002,
+        "ap50_95": 0.0
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov3-tinyu",
+    "family": "yolov3",
+    "size": "tiny",
+    "dataset": "combined",
+    "timestamp": "2026-08-06 12:26:42",
+    "mAP50": 0.0168,
+    "mAP50_95": 0.0097,
+    "precision": 0.0139,
+    "recall": 0.0801,
+    "eval_time_s": 128.1,
+    "per_class": {
+      "holothurian": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "echinus": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "scallop": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "starfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "fish": {
+        "ap50": 0.0001,
+        "ap50_95": 0.0
+      },
+      "small_fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "crab": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "shrimp": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "jellyfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "bio": {
+        "ap50": 0.0006,
+        "ap50_95": 0.0001
+      },
+      "cloth": {
+        "ap50": 0.0844,
+        "ap50_95": 0.0627
+      },
+      "fishing": {
+        "ap50": 0.1322,
+        "ap50_95": 0.0636
+      },
+      "metal": {
+        "ap50": 0.0007,
+        "ap50_95": 0.0003
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov5nu",
+    "family": "yolov5",
+    "size": "nano",
+    "dataset": "combined",
+    "timestamp": "2026-08-06 12:28:50",
+    "mAP50": 0.0149,
+    "mAP50_95": 0.0082,
+    "precision": 0.1874,
+    "recall": 0.0125,
+    "eval_time_s": 142.5,
+    "per_class": {
+      "holothurian": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "echinus": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "scallop": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "starfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "fish": {
+        "ap50": 0.0002,
+        "ap50_95": 0.0001
+      },
+      "small_fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "crab": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "shrimp": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "jellyfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "bio": {
+        "ap50": 0.0007,
+        "ap50_95": 0.0002
+      },
+      "cloth": {
+        "ap50": 0.0115,
+        "ap50_95": 0.0069
+      },
+      "fishing": {
+        "ap50": 0.1813,
+        "ap50_95": 0.0997
+      },
+      "metal": {
+        "ap50": 0.0002,
+        "ap50_95": 0.0
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov5su",
+    "family": "yolov5",
+    "size": "small",
+    "dataset": "combined",
+    "timestamp": "2026-08-06 12:31:13",
+    "mAP50": 0.0168,
+    "mAP50_95": 0.0088,
+    "precision": 0.009,
+    "recall": 0.1016,
+    "eval_time_s": 157.8,
+    "per_class": {
+      "holothurian": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "echinus": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "scallop": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "starfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "fish": {
+        "ap50": 0.0002,
+        "ap50_95": 0.0001
+      },
+      "small_fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "crab": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "shrimp": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "jellyfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "bio": {
+        "ap50": 0.0003,
+        "ap50_95": 0.0001
+      },
+      "cloth": {
+        "ap50": 0.0137,
+        "ap50_95": 0.0078
+      },
+      "fishing": {
+        "ap50": 0.2042,
+        "ap50_95": 0.1065
+      },
+      "metal": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov5mu",
+    "family": "yolov5",
+    "size": "medium",
+    "dataset": "combined",
+    "timestamp": "2026-08-06 12:33:51",
+    "mAP50": 0.0126,
+    "mAP50_95": 0.0063,
+    "precision": 0.0095,
+    "recall": 0.0841,
+    "eval_time_s": 122.4,
+    "per_class": {
+      "holothurian": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "echinus": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "scallop": {
+        "ap50": 0.0006,
+        "ap50_95": 0.0004
+      },
+      "starfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "fish": {
+        "ap50": 0.0002,
+        "ap50_95": 0.0001
+      },
+      "small_fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "crab": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "shrimp": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "jellyfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "bio": {
+        "ap50": 0.0016,
+        "ap50_95": 0.0006
+      },
+      "cloth": {
+        "ap50": 0.0071,
+        "ap50_95": 0.0036
+      },
+      "fishing": {
+        "ap50": 0.1536,
+        "ap50_95": 0.0772
+      },
+      "metal": {
+        "ap50": 0.0001,
+        "ap50_95": 0.0
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov5lu",
+    "family": "yolov5",
+    "size": "large",
+    "dataset": "combined",
+    "timestamp": "2026-08-06 12:35:53",
+    "mAP50": 0.0093,
+    "mAP50_95": 0.0048,
+    "precision": 0.0094,
+    "recall": 0.0592,
+    "eval_time_s": 165.6,
+    "per_class": {
+      "holothurian": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "echinus": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "scallop": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "starfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "small_fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "crab": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "shrimp": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "jellyfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "bio": {
+        "ap50": 0.0004,
+        "ap50_95": 0.0003
+      },
+      "cloth": {
+        "ap50": 0.0005,
+        "ap50_95": 0.0003
+      },
+      "fishing": {
+        "ap50": 0.1194,
+        "ap50_95": 0.0623
+      },
+      "metal": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov5xu",
+    "family": "yolov5",
+    "size": "xlarge",
+    "dataset": "combined",
+    "timestamp": "2026-08-06 12:38:39",
+    "mAP50": 0.0186,
+    "mAP50_95": 0.0104,
+    "precision": 0.0133,
+    "recall": 0.0631,
+    "eval_time_s": 154.3,
+    "per_class": {
+      "holothurian": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "echinus": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "scallop": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "starfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "fish": {
+        "ap50": 0.0001,
+        "ap50_95": 0.0001
+      },
+      "small_fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "crab": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "shrimp": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "jellyfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "bio": {
+        "ap50": 0.0038,
+        "ap50_95": 0.0013
+      },
+      "cloth": {
+        "ap50": 0.0002,
+        "ap50_95": 0.0001
+      },
+      "fishing": {
+        "ap50": 0.2376,
+        "ap50_95": 0.1343
+      },
+      "metal": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov8n",
+    "family": "yolov8",
+    "size": "nano",
+    "dataset": "combined",
+    "timestamp": "2026-08-06 12:41:14",
+    "mAP50": 0.0281,
+    "mAP50_95": 0.0151,
+    "precision": 0.0539,
+    "recall": 0.0419,
+    "eval_time_s": 83.0,
+    "per_class": {
+      "holothurian": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "echinus": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "scallop": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "starfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "fish": {
+        "ap50": 0.0002,
+        "ap50_95": 0.0
+      },
+      "small_fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "crab": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "shrimp": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "jellyfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "bio": {
+        "ap50": 0.0008,
+        "ap50_95": 0.0002
+      },
+      "cloth": {
+        "ap50": 0.2169,
+        "ap50_95": 0.1175
+      },
+      "fishing": {
+        "ap50": 0.1474,
+        "ap50_95": 0.079
+      },
+      "metal": {
+        "ap50": 0.0004,
+        "ap50_95": 0.0001
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov8s",
+    "family": "yolov8",
+    "size": "small",
+    "dataset": "combined",
+    "timestamp": "2026-08-06 12:42:37",
+    "mAP50": 0.0148,
+    "mAP50_95": 0.0077,
+    "precision": 0.0109,
+    "recall": 0.0626,
+    "eval_time_s": 159.3,
+    "per_class": {
+      "holothurian": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "echinus": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "scallop": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "starfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "fish": {
+        "ap50": 0.0005,
+        "ap50_95": 0.0003
+      },
+      "small_fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "crab": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "shrimp": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "jellyfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "bio": {
+        "ap50": 0.0008,
+        "ap50_95": 0.0002
+      },
+      "cloth": {
+        "ap50": 0.0001,
+        "ap50_95": 0.0
+      },
+      "fishing": {
+        "ap50": 0.1906,
+        "ap50_95": 0.0993
+      },
+      "metal": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov8m",
+    "family": "yolov8",
+    "size": "medium",
+    "dataset": "combined",
+    "timestamp": "2026-08-06 12:45:16",
+    "mAP50": 0.0158,
+    "mAP50_95": 0.0088,
+    "precision": 0.0102,
+    "recall": 0.0676,
+    "eval_time_s": 145.9,
+    "per_class": {
+      "holothurian": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "echinus": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "scallop": {
+        "ap50": 0.0017,
+        "ap50_95": 0.0012
+      },
+      "starfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "fish": {
+        "ap50": 0.0001,
+        "ap50_95": 0.0
+      },
+      "small_fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "crab": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "shrimp": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "jellyfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "bio": {
+        "ap50": 0.0004,
+        "ap50_95": 0.0002
+      },
+      "cloth": {
+        "ap50": 0.0005,
+        "ap50_95": 0.0001
+      },
+      "fishing": {
+        "ap50": 0.2028,
+        "ap50_95": 0.1125
+      },
+      "metal": {
+        "ap50": 0.0001,
+        "ap50_95": 0.0
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov8l",
+    "family": "yolov8",
+    "size": "large",
+    "dataset": "combined",
+    "timestamp": "2026-08-06 12:47:42",
+    "mAP50": 0.0146,
+    "mAP50_95": 0.008,
+    "precision": 0.0121,
+    "recall": 0.0844,
+    "eval_time_s": 172.8,
+    "per_class": {
+      "holothurian": {
+        "ap50": 0.0001,
+        "ap50_95": 0.0
+      },
+      "echinus": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "scallop": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "starfish": {
+        "ap50": 0.0001,
+        "ap50_95": 0.0001
+      },
+      "fish": {
+        "ap50": 0.0003,
+        "ap50_95": 0.0001
+      },
+      "small_fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "crab": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "shrimp": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "jellyfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "bio": {
+        "ap50": 0.0022,
+        "ap50_95": 0.0014
+      },
+      "cloth": {
+        "ap50": 0.0013,
+        "ap50_95": 0.0008
+      },
+      "fishing": {
+        "ap50": 0.1861,
+        "ap50_95": 0.1009
+      },
+      "metal": {
+        "ap50": 0.0001,
+        "ap50_95": 0.0001
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov8x",
+    "family": "yolov8",
+    "size": "xlarge",
+    "dataset": "combined",
+    "timestamp": "2026-08-06 12:50:35",
+    "mAP50": 0.0126,
+    "mAP50_95": 0.0071,
+    "precision": 0.107,
+    "recall": 0.0122,
+    "eval_time_s": 183.0,
+    "per_class": {
+      "holothurian": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "echinus": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "scallop": {
+        "ap50": 0.0006,
+        "ap50_95": 0.0004
+      },
+      "starfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "fish": {
+        "ap50": 0.0001,
+        "ap50_95": 0.0
+      },
+      "small_fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "crab": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "shrimp": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "jellyfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "bio": {
+        "ap50": 0.0002,
+        "ap50_95": 0.0001
+      },
+      "cloth": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "fishing": {
+        "ap50": 0.1632,
+        "ap50_95": 0.0915
+      },
+      "metal": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov9t",
+    "family": "yolov9",
+    "size": "tiny",
+    "dataset": "combined",
+    "timestamp": "2026-08-06 12:53:38",
+    "mAP50": 0.0204,
+    "mAP50_95": 0.0115,
+    "precision": 0.2483,
+    "recall": 0.0138,
+    "eval_time_s": 123.9,
+    "per_class": {
+      "holothurian": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "echinus": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "scallop": {
+        "ap50": 0.0001,
+        "ap50_95": 0.0001
+      },
+      "starfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "fish": {
+        "ap50": 0.0006,
+        "ap50_95": 0.0003
+      },
+      "small_fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "crab": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "shrimp": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "jellyfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "bio": {
+        "ap50": 0.0008,
+        "ap50_95": 0.0004
+      },
+      "cloth": {
+        "ap50": 0.0862,
+        "ap50_95": 0.0471
+      },
+      "fishing": {
+        "ap50": 0.1772,
+        "ap50_95": 0.1014
+      },
+      "metal": {
+        "ap50": 0.0001,
+        "ap50_95": 0.0
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov9s",
+    "family": "yolov9",
+    "size": "small",
+    "dataset": "combined",
+    "timestamp": "2026-08-06 12:55:42",
+    "mAP50": 0.0148,
+    "mAP50_95": 0.008,
+    "precision": 0.0152,
+    "recall": 0.0321,
+    "eval_time_s": 165.3,
+    "per_class": {
+      "holothurian": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "echinus": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "scallop": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "starfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "fish": {
+        "ap50": 0.0003,
+        "ap50_95": 0.0002
+      },
+      "small_fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "crab": {
+        "ap50": 0.0001,
+        "ap50_95": 0.0
+      },
+      "shrimp": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "jellyfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "bio": {
+        "ap50": 0.0003,
+        "ap50_95": 0.0001
+      },
+      "cloth": {
+        "ap50": 0.0753,
+        "ap50_95": 0.0423
+      },
+      "fishing": {
+        "ap50": 0.1157,
+        "ap50_95": 0.0612
+      },
+      "metal": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov9m",
+    "family": "yolov9",
+    "size": "medium",
+    "dataset": "combined",
+    "timestamp": "2026-08-06 12:58:28",
+    "mAP50": 0.0191,
+    "mAP50_95": 0.01,
+    "precision": 0.0131,
+    "recall": 0.0986,
+    "eval_time_s": 149.1,
+    "per_class": {
+      "holothurian": {
+        "ap50": 0.0001,
+        "ap50_95": 0.0
+      },
+      "echinus": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "scallop": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "starfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "small_fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "crab": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "shrimp": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "jellyfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "bio": {
+        "ap50": 0.0045,
+        "ap50_95": 0.0016
+      },
+      "cloth": {
+        "ap50": 0.0067,
+        "ap50_95": 0.0037
+      },
+      "fishing": {
+        "ap50": 0.2371,
+        "ap50_95": 0.1247
+      },
+      "metal": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov9c",
+    "family": "yolov9",
+    "size": "compact",
+    "dataset": "combined",
+    "timestamp": "2026-08-06 13:00:57",
+    "mAP50": 0.0102,
+    "mAP50_95": 0.0057,
+    "precision": 0.0159,
+    "recall": 0.019,
+    "eval_time_s": 174.4,
+    "per_class": {
+      "holothurian": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "echinus": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "scallop": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "starfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "small_fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "crab": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "shrimp": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "jellyfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "bio": {
+        "ap50": 0.0036,
+        "ap50_95": 0.0013
+      },
+      "cloth": {
+        "ap50": 0.0017,
+        "ap50_95": 0.0011
+      },
+      "fishing": {
+        "ap50": 0.1275,
+        "ap50_95": 0.0713
+      },
+      "metal": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov9e",
+    "family": "yolov9",
+    "size": "extended",
+    "dataset": "combined",
+    "timestamp": "2026-08-06 13:03:52",
+    "mAP50": 0.0074,
+    "mAP50_95": 0.0038,
+    "precision": 0.0093,
+    "recall": 0.086,
+    "eval_time_s": 194.9,
+    "per_class": {
+      "holothurian": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "echinus": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "scallop": {
+        "ap50": 0.0001,
+        "ap50_95": 0.0001
+      },
+      "starfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "fish": {
+        "ap50": 0.0001,
+        "ap50_95": 0.0001
+      },
+      "small_fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "crab": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "shrimp": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "jellyfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "bio": {
+        "ap50": 0.0009,
+        "ap50_95": 0.0005
+      },
+      "cloth": {
+        "ap50": 0.0056,
+        "ap50_95": 0.0028
+      },
+      "fishing": {
+        "ap50": 0.0898,
+        "ap50_95": 0.046
+      },
+      "metal": {
+        "ap50": 0.0002,
+        "ap50_95": 0.0
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov10n",
+    "family": "yolov10",
+    "size": "nano",
+    "dataset": "combined",
+    "timestamp": "2026-08-06 13:07:07",
+    "mAP50": 0.0282,
+    "mAP50_95": 0.0158,
+    "precision": 0.0104,
+    "recall": 0.0882,
+    "eval_time_s": 88.4,
+    "per_class": {
+      "holothurian": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "echinus": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "scallop": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "starfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "fish": {
+        "ap50": 0.0001,
+        "ap50_95": 0.0001
+      },
+      "small_fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "crab": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "shrimp": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "jellyfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "bio": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "cloth": {
+        "ap50": 0.2632,
+        "ap50_95": 0.1553
+      },
+      "fishing": {
+        "ap50": 0.1028,
+        "ap50_95": 0.0506
+      },
+      "metal": {
+        "ap50": 0.0001,
+        "ap50_95": 0.0
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov10s",
+    "family": "yolov10",
+    "size": "small",
+    "dataset": "combined",
+    "timestamp": "2026-08-06 13:08:35",
+    "mAP50": 0.0112,
+    "mAP50_95": 0.006,
+    "precision": 0.0122,
+    "recall": 0.0641,
+    "eval_time_s": 122.0,
+    "per_class": {
+      "holothurian": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "echinus": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "scallop": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "starfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "small_fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "crab": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "shrimp": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "jellyfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "bio": {
+        "ap50": 0.0001,
+        "ap50_95": 0.0
+      },
+      "cloth": {
+        "ap50": 0.0041,
+        "ap50_95": 0.0028
+      },
+      "fishing": {
+        "ap50": 0.1407,
+        "ap50_95": 0.0752
+      },
+      "metal": {
+        "ap50": 0.0002,
+        "ap50_95": 0.0001
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov10m",
+    "family": "yolov10",
+    "size": "medium",
+    "dataset": "combined",
+    "timestamp": "2026-08-06 13:10:37",
+    "mAP50": 0.009,
+    "mAP50_95": 0.0042,
+    "precision": 0.0928,
+    "recall": 0.0152,
+    "eval_time_s": 133.3,
+    "per_class": {
+      "holothurian": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "echinus": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "scallop": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "starfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "small_fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "crab": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "shrimp": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "jellyfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "bio": {
+        "ap50": 0.001,
+        "ap50_95": 0.0001
+      },
+      "cloth": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "fishing": {
+        "ap50": 0.1158,
+        "ap50_95": 0.0542
+      },
+      "metal": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov10b",
+    "family": "yolov10",
+    "size": "balanced",
+    "dataset": "combined",
+    "timestamp": "2026-08-06 13:12:51",
+    "mAP50": 0.0112,
+    "mAP50_95": 0.0062,
+    "precision": 0.0123,
+    "recall": 0.0727,
+    "eval_time_s": 105.9,
+    "per_class": {
+      "holothurian": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "echinus": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "scallop": {
+        "ap50": 0.0007,
+        "ap50_95": 0.0006
+      },
+      "starfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "small_fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "crab": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "shrimp": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "jellyfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "bio": {
+        "ap50": 0.0019,
+        "ap50_95": 0.001
+      },
+      "cloth": {
+        "ap50": 0.0076,
+        "ap50_95": 0.0049
+      },
+      "fishing": {
+        "ap50": 0.1357,
+        "ap50_95": 0.0738
+      },
+      "metal": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov10l",
+    "family": "yolov10",
+    "size": "large",
+    "dataset": "combined",
+    "timestamp": "2026-08-06 13:14:37",
+    "mAP50": 0.0171,
+    "mAP50_95": 0.0094,
+    "precision": 0.0286,
+    "recall": 0.0248,
+    "eval_time_s": 146.8,
+    "per_class": {
+      "holothurian": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "echinus": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "scallop": {
+        "ap50": 0.0001,
+        "ap50_95": 0.0001
+      },
+      "starfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "fish": {
+        "ap50": 0.0003,
+        "ap50_95": 0.0002
+      },
+      "small_fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "crab": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "shrimp": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "jellyfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "bio": {
+        "ap50": 0.0014,
+        "ap50_95": 0.0008
+      },
+      "cloth": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "fishing": {
+        "ap50": 0.2205,
+        "ap50_95": 0.1208
+      },
+      "metal": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolov10x",
+    "family": "yolov10",
+    "size": "xlarge",
+    "dataset": "combined",
+    "timestamp": "2026-08-06 13:17:04",
+    "mAP50": 0.0136,
+    "mAP50_95": 0.0071,
+    "precision": 0.0113,
+    "recall": 0.0548,
+    "eval_time_s": 156.0,
+    "per_class": {
+      "holothurian": {
+        "ap50": 0.0002,
+        "ap50_95": 0.0001
+      },
+      "echinus": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "scallop": {
+        "ap50": 0.0001,
+        "ap50_95": 0.0001
+      },
+      "starfish": {
+        "ap50": 0.0001,
+        "ap50_95": 0.0001
+      },
+      "fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "small_fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "crab": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "shrimp": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "jellyfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "bio": {
+        "ap50": 0.0031,
+        "ap50_95": 0.0011
+      },
+      "cloth": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "fishing": {
+        "ap50": 0.1735,
+        "ap50_95": 0.0908
+      },
+      "metal": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolo11n",
+    "family": "yolo11",
+    "size": "nano",
+    "dataset": "combined",
+    "timestamp": "2026-08-06 13:19:40",
+    "mAP50": 0.0102,
+    "mAP50_95": 0.0054,
+    "precision": 0.0239,
+    "recall": 0.0226,
+    "eval_time_s": 118.8,
+    "per_class": {
+      "holothurian": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "echinus": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "scallop": {
+        "ap50": 0.0001,
+        "ap50_95": 0.0
+      },
+      "starfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "fish": {
+        "ap50": 0.0002,
+        "ap50_95": 0.0001
+      },
+      "small_fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "crab": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "shrimp": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "jellyfish": {
+        "ap50": 0.0001,
+        "ap50_95": 0.0
+      },
+      "bio": {
+        "ap50": 0.0005,
+        "ap50_95": 0.0001
+      },
+      "cloth": {
+        "ap50": 0.0641,
+        "ap50_95": 0.035
+      },
+      "fishing": {
+        "ap50": 0.0663,
+        "ap50_95": 0.0342
+      },
+      "metal": {
+        "ap50": 0.0011,
+        "ap50_95": 0.0004
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolo11s",
+    "family": "yolo11",
+    "size": "small",
+    "dataset": "combined",
+    "timestamp": "2026-08-06 13:21:39",
+    "mAP50": 0.0074,
+    "mAP50_95": 0.004,
+    "precision": 0.0065,
+    "recall": 0.0662,
+    "eval_time_s": 152.0,
+    "per_class": {
+      "holothurian": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "echinus": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "scallop": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "starfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "fish": {
+        "ap50": 0.0003,
+        "ap50_95": 0.0001
+      },
+      "small_fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "crab": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "shrimp": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "jellyfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "bio": {
+        "ap50": 0.0003,
+        "ap50_95": 0.0001
+      },
+      "cloth": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "fishing": {
+        "ap50": 0.0955,
+        "ap50_95": 0.0513
+      },
+      "metal": {
+        "ap50": 0.0001,
+        "ap50_95": 0.0
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolo11m",
+    "family": "yolo11",
+    "size": "medium",
+    "dataset": "combined",
+    "timestamp": "2026-08-06 13:24:11",
+    "mAP50": 0.0158,
+    "mAP50_95": 0.0079,
+    "precision": 0.0178,
+    "recall": 0.0389,
+    "eval_time_s": 165.8,
+    "per_class": {
+      "holothurian": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "echinus": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "scallop": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "starfish": {
+        "ap50": 0.0001,
+        "ap50_95": 0.0
+      },
+      "fish": {
+        "ap50": 0.0002,
+        "ap50_95": 0.0001
+      },
+      "small_fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "crab": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "shrimp": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "jellyfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "bio": {
+        "ap50": 0.0011,
+        "ap50_95": 0.0005
+      },
+      "cloth": {
+        "ap50": 0.0016,
+        "ap50_95": 0.0011
+      },
+      "fishing": {
+        "ap50": 0.201,
+        "ap50_95": 0.1002
+      },
+      "metal": {
+        "ap50": 0.0008,
+        "ap50_95": 0.0003
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolo11l",
+    "family": "yolo11",
+    "size": "large",
+    "dataset": "combined",
+    "timestamp": "2026-08-06 13:26:57",
+    "mAP50": 0.01,
+    "mAP50_95": 0.0053,
+    "precision": 0.0159,
+    "recall": 0.0317,
+    "eval_time_s": 137.4,
+    "per_class": {
+      "holothurian": {
+        "ap50": 0.0001,
+        "ap50_95": 0.0001
+      },
+      "echinus": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "scallop": {
+        "ap50": 0.0005,
+        "ap50_95": 0.0003
+      },
+      "starfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "small_fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "crab": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "shrimp": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "jellyfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "bio": {
+        "ap50": 0.0014,
+        "ap50_95": 0.0007
+      },
+      "cloth": {
+        "ap50": 0.0001,
+        "ap50_95": 0.0
+      },
+      "fishing": {
+        "ap50": 0.1282,
+        "ap50_95": 0.068
+      },
+      "metal": {
+        "ap50": 0.0002,
+        "ap50_95": 0.0001
+      }
+    },
+    "status": "success"
+  },
+  {
+    "model": "yolo11x",
+    "family": "yolo11",
+    "size": "xlarge",
+    "dataset": "combined",
+    "timestamp": "2026-08-06 13:29:15",
+    "mAP50": 0.0047,
+    "mAP50_95": 0.0026,
+    "precision": 0.0075,
+    "recall": 0.0499,
+    "eval_time_s": 181.7,
+    "per_class": {
+      "holothurian": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "echinus": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "scallop": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "starfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "small_fish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "crab": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "shrimp": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "jellyfish": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "bio": {
+        "ap50": 0.001,
+        "ap50_95": 0.0003
+      },
+      "cloth": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "fishing": {
+        "ap50": 0.0603,
+        "ap50_95": 0.034
+      },
+      "metal": {
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      }
+    },
+    "status": "success"
+  }
+]

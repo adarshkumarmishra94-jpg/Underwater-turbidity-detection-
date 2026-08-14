@@ -1,0 +1,105 @@
+# YOLO Model Registry — All variants to benchmark
+# Format: model_name: pretrained_weight_file
+# Ultralytics will load weights from checkpoints/pretrained_checkpoints/
+
+# ─── YOLOv3 (legacy) ───
+yolov3:
+  - name: yolov3u
+    weights: checkpoints/pretrained_checkpoints/yolov3u.pt
+    size: large
+  - name: yolov3-tinyu
+    weights: checkpoints/pretrained_checkpoints/yolov3-tinyu.pt
+    size: tiny
+
+# ─── YOLOv5 (updated architecture with ultralytics) ───
+yolov5:
+  - name: yolov5nu
+    weights: checkpoints/pretrained_checkpoints/yolov5nu.pt
+    size: nano
+  - name: yolov5su
+    weights: checkpoints/pretrained_checkpoints/yolov5su.pt
+    size: small
+  - name: yolov5mu
+    weights: checkpoints/pretrained_checkpoints/yolov5mu.pt
+    size: medium
+  - name: yolov5lu
+    weights: checkpoints/pretrained_checkpoints/yolov5lu.pt
+    size: large
+  - name: yolov5xu
+    weights: checkpoints/pretrained_checkpoints/yolov5xu.pt
+    size: xlarge
+
+# ─── YOLOv8 ───
+yolov8:
+  - name: yolov8n
+    weights: checkpoints/pretrained_checkpoints/yolov8n.pt
+    size: nano
+  - name: yolov8s
+    weights: checkpoints/pretrained_checkpoints/yolov8s.pt
+    size: small
+  - name: yolov8m
+    weights: checkpoints/pretrained_checkpoints/yolov8m.pt
+    size: medium
+  - name: yolov8l
+    weights: checkpoints/pretrained_checkpoints/yolov8l.pt
+    size: large
+  - name: yolov8x
+    weights: checkpoints/pretrained_checkpoints/yolov8x.pt
+    size: xlarge
+
+# ─── YOLOv9 ───
+yolov9:
+  - name: yolov9t
+    weights: checkpoints/pretrained_checkpoints/yolov9t.pt
+    size: tiny
+  - name: yolov9s
+    weights: checkpoints/pretrained_checkpoints/yolov9s.pt
+    size: small
+  - name: yolov9m
+    weights: checkpoints/pretrained_checkpoints/yolov9m.pt
+    size: medium
+  - name: yolov9c
+    weights: checkpoints/pretrained_checkpoints/yolov9c.pt
+    size: compact
+  - name: yolov9e
+    weights: checkpoints/pretrained_checkpoints/yolov9e.pt
+    size: extended
+
+# ─── YOLOv10 ───
+yolov10:
+  - name: yolov10n
+    weights: checkpoints/pretrained_checkpoints/yolov10n.pt
+    size: nano
+  - name: yolov10s
+    weights: checkpoints/pretrained_checkpoints/yolov10s.pt
+    size: small
+  - name: yolov10m
+    weights: checkpoints/pretrained_checkpoints/yolov10m.pt
+    size: medium
+  - name: yolov10b
+    weights: checkpoints/pretrained_checkpoints/yolov10b.pt
+    size: balanced
+  - name: yolov10l
+    weights: checkpoints/pretrained_checkpoints/yolov10l.pt
+    size: large
+  - name: yolov10x
+    weights: checkpoints/pretrained_checkpoints/yolov10x.pt
+    size: xlarge
+
+# ─── YOLO11 ───
+yolo11:
+  - name: yolo11n
+    weights: checkpoints/pretrained_checkpoints/yolo11n.pt
+    size: nano
+  - name: yolo11s
+    weights: checkpoints/pretrained_checkpoints/yolo11s.pt
+    size: small
+  - name: yolo11m
+    weights: checkpoints/pretrained_checkpoints/yolo11m.pt
+    size: medium
+  - name: yolo11l
+    weights: checkpoints/pretrained_checkpoints/yolo11l.pt
+    size: large
+  - name: yolo11x
+    weights: checkpoints/pretrained_checkpoints/yolo11x.pt
+    size: xlarge

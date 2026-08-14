@@ -1,0 +1,37 @@
+{
+  "avg_detections_per_image": 1.44,
+  "confidence": 0.25,
+  "dataset": "infra",
+  "end_to_end_avg_ms": 85.55,
+  "end_to_end_fps": 11.689,
+  "end_to_end_max_ms": 217.311,
+  "end_to_end_median_ms": 80.524,
+  "end_to_end_min_ms": 71.938,
+  "end_to_end_p95_ms": 108.715,
+  "engine": "yolov8n_infra_640_fp16.plan",
+  "imgsz": 640,
+  "inference_avg_ms": 54.347,
+  "inference_fps": 18.4,
+  "inference_max_ms": 65.702,
+  "inference_median_ms": 54.272,
+  "inference_min_ms": 52.342,
+  "inference_p95_ms": 57.213,
+  "input_shape": [
+    1,
+    3,
+    640,
+    640
+  ],
+  "iou": 0.45,
+  "model": "yolov8n_infra",
+  "num_images": 50,
+  "output_shape": [
+    1,
+    6,
+    8400
+  ],
+  "precision": "fp16",
+  "status": "success",
+  "total_detections": 72,
+  "warmup_runs": 5
+}
