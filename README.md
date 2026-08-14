@@ -236,9 +236,3 @@ python test.py --model yolov8n --dataset infra
 ## 📄 License
 This project is released under the MIT License for research and academic evaluation.
 
-## 📝 IEEE Paper Draft
-
-The anonymous first draft, modular LaTeX source, standalone portal source, and
-validated source ZIP are under [`paper_v1/`](paper_v1/). The compiled draft is
-[`paper_v1/paper_v1.pdf`](paper_v1/paper_v1.pdf). It contains only archived
-measurements; RTX 3060 results remain pending.
