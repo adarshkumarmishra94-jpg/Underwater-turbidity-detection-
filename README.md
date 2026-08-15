@@ -120,7 +120,7 @@ they are not Jetson engine-only measurements.
 ---
 
 ## 📁 Repository Structure
-
+```text
 underwater-turbidity-detection/
 ├── README.md                    # This document
 ├── LICENSE.md                   # Academic/research license
