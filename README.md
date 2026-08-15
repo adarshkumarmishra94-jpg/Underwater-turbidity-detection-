@@ -121,53 +121,44 @@ they are not Jetson engine-only measurements.
 
 ## 📁 Repository Structure
 
-turbid review/
-├── README.md
-├── requirements.txt
+underwater-turbidity-detection/
+├── README.md                    # This document
+├── LICENSE.md                   # Academic/research license
+├── requirements.txt             # Python dependencies
 │
 ├── configs/
 │   ├── datasets/
-│   │   ├── infra.yaml
-│   │   ├── survivor.yaml
-│   │   └── combined.yaml
-│   ├── models.yaml
-│   └── train_config.yaml
+│   │   ├── infra.yaml           # 2 classes (crack, corrosion)
+│   │   ├── survivor.yaml        # 1 class (person)
+│   │   └── combined.yaml        # 10 marine classes
+│   ├── models.yaml              # 28 registered YOLO model variants
+│   └── train_config.yaml        # Hyperparameters (30 epochs, 640 image)
 │
 ├── checkpoints/
-│   ├── pretrained/
-│   ├── exports/
-│   └── {model}_{dataset}/
+│   ├── pretrained/              # Pretrained COCO baseline weights
+│   ├── export/                  # Exported ONNX models for Jetson Nano
+│   └── finetuned/               # Fine-tuned checkpoints
 │
 ├── results/
-│   ├── task_001_pretrained_eval.md
-│   ├── task_002_finetuned_eval.md
-│   ├── summary_pretrained_vs_finetuned.md
-│   ├── task_003_inference.md
-│   └── model_profiles_finetuned.md
+│   ├── task_001_pretrained_eval.md       # Pretrained zero-shot evaluation
+│   ├── task_002_finetuned_eval.md        # Fine-tuned evaluation metrics
+│   ├── summary_pretrained_vs_finetuned.md # Comparison & gain tables
+│   ├── task_003_inference.md             # Multi-resolution latency & FPS
+│   └── model_profiling_finetuned.md      # FLOPs, parameters, memory profiling
 │
 ├── models/
-│   ├── export_onnx.py
-│   ├── model_registry.py
-│   └── profile_model.py
+│   ├── export_weights.py         # Export PyTorch weights to ONNX with ONNX Slim
+│   ├── model_loader.py           # Model zoo loader
+│   └── profiler.py               # Parameters & FLOPs profiler
 │
 ├── edge_inference/
-│   ├── inference_trt.py
-│   ├── patch_onnx_trt8.py
-│   ├── fold_static_pads.py
-│   └── generate_report.py
+│   ├── inference.py              # Package-free Jetson TensorRT runner
+│   ├── compatibility.py          # Dynamic-shape compatibility rewrite
+│   ├── yolov8_compat.py          # Legacy YOLOv8 compatibility rewrite
+│   └── generate_report.py        # Consolidated edge report generator
 │
-├── scripts/
-│   ├── setup.sh
-│   ├── run_test.sh
-│   ├── run_train.sh
-│   ├── run_inference.sh
-│   ├── run_multires_inference.sh
-│   ├── run_edge.sh
-│   └── run_post_training.sh
-│
-├── test.py
-├── train.py
-└── inference.py
+└── scripts/
+    └── setup.sh                  # Environment setup
 ```
 
 ---
