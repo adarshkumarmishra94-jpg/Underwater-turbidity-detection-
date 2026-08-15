@@ -1,10 +1,20 @@
-# Benchmark Validity in Underwater Object Detection:
-A Case Study on 28 YOLO Detectors
+# Benchmark Validity in Underwater Object Detection
 
-> **An Empirical Benchmark of 28 YOLO Architectures (v3 to v11) for Underwater Search & Rescue, Infrastructure Inspection, and Marine Detection with Edge Deployment.**
+### A Case Study on 28 YOLO Detectors
 
+> An empirical benchmark of 28 YOLO architectures (v3–v11) for underwater search & rescue, infrastructure inspection, and marine object detection.
 ---
+## 📑 Table of Contents
 
+1. [Overview](#-overview)
+2. [Datasets](#-datasets)
+3. [Benchmark Results](#-benchmark-results-summary)
+4. [Inference](#-a100-multi-resolution-inference-summary)
+5. [Project Structure](#-repository-structure)
+6. [Quick Start](#-quick-start--usage)
+7. [Checkpoints](#-model-checkpoints--google-drive-download)
+8. [License](#-license)
+   
 ## 🌊 Overview
 
 Object detection in turbid underwater environments presents severe challenges including light scattering, color degradation, severe attenuation, and floating particulates. 
@@ -14,30 +24,47 @@ This repository provides a multi-dimensional empirical benchmark evaluating
 (totaling **84 fine-tuned model records** and **252 multi-resolution inference
 evaluations**).
 
-### 🎯 Key Benchmark Scope
-- **28 Model Architectures**: YOLOv3 (`tiny`, `u`), YOLOv5u (`n`, `s`, `m`, `l`, `x`), YOLOv8 (`n`, `s`, `m`, `l`, `x`), YOLOv9 (`t`, `s`, `m`, `c`, `e`), YOLOv10 (`n`, `s`, `m`, `b`, `l`, `x`), and YOLO11 (`n`, `s`, `m`, `l`, `x`).
-- **3 Diverse Underwater Datasets**: `INFRA` (Damage Inspection), `SURVIVOR` (Search & Rescue), and `COMBINED` (19 Marine Classes).
-- **Multi-Resolution Profiling**: Throughput (FPS) and latency (ms) measured at **224×224**, **480×480**, and **640×640**.
-- **Edge Deployment**: Optimized ONNX graph exports with dynamic shape support for embedded deployment (e.g., NVIDIA Jetson Nano / ROVs).
+## 🎯 Key Benchmark Scope
+
+- *28 YOLO architectures* — YOLOv3 to YOLOv11
+- *3 specialized datasets* — Infrastructure, Survivor, and Combined Marine
+- *Pretrained evaluation*
+- *Fine-tuned evaluation*
+- *Multi-resolution inference benchmarking*
+- *Latency and FPS analysis*
+- *Model parameters and FLOPs profiling*
+- *ONNX export and TensorRT deployment*
+- *NVIDIA Jetson Nano edge inference*
 
 ---
 
-## 📊 Datasets
+## 🗄️ Datasets
 
-| Dataset | Primary Classes | Training Images | Validation Images | Description & Application |
-|:---|:---|:---:|:---:|:---|
-| **`INFRA`** | `crack`, `corrosion` | 17,322 | 940 | Subsea pipeline, pier piling, and hull defect detection |
-| **`SURVIVOR`** | `person` | 871 | 218 | Maritime search & rescue (SAR) and diver detection in extreme turbidity |
-| **`COMBINED`** | 19 marine classes (biological & debris) | 22,358 | 3,169 (+3,494 test) | Multi-class marine ecosystem monitoring & debris identification |
+The benchmark evaluates three specialized underwater datasets:
+
+| Dataset | Classes | Application |
+|---|---|---|
+| *INFRA* | 2 — crack, corrosion | Infrastructure inspection |
+| *SURVIVOR* | 1 — person | Underwater search & rescue |
+| *COMBINED* | 19 marine classes | General marine object detection |
+
+Dataset configuration files are available in:
+
+```text
+configs/datasets/
+├── infra.yaml
+├── survivor.yaml
+└── combined.yaml
 
 ---
 
 ## 🏆 Benchmark Results Summary
 
+> Comparison of pretrained and fine-tuned YOLO models across the evaluated underwater datasets.
+
 ### 1. Pretrained vs. Fine-Tuned Accuracy Gains
 
-Fine-tuning on domain-specific turbid water datasets yields substantial performance gains across all model families:
-
+Fine-tuning on domain-specific turbid water datasets yields substantial performance gains across the evaluated model families.
 ```
 Dataset       Runs    Pretrained mAP50    Fine-Tuned mAP50    Absolute Gain    Fine-Tuned mAP50-95
 ──────────────────────────────────────────────────────────────────────────────────────────────────
@@ -83,7 +110,7 @@ are excluded from this comparison.
 
 ---
 
-## ⚡ A100 Multi-Resolution Inference Summary
+## ⚡ A100 Multi-Resolution Inference summary
 
 The application benchmark times the full framework prediction call over each
 real validation split. Values below are means over all 28 fine-tuned models;
