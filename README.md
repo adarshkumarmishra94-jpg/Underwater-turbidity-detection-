@@ -100,10 +100,9 @@ they are not Jetson engine-only measurements.
 ## 📂 Repository Structure
 
 ```
+text
 turbid_review/
 ├── README.md                              # This document
-├── CLAUDE.md                              # Architecture conventions & guidelines
-├── project_progress.md                    # Detailed progress log & commands
 ├── requirements.txt                       # Python dependencies
 │
 ├── configs/
@@ -115,39 +114,40 @@ turbid_review/
 │   └── train_config.yaml                  # Hyperparameters (30 epochs, 640 imgsz)
 │
 ├── checkpoints/
-│   ├── pretrained/                        # Pretrained COCO baseline weights (23 .pt files)
-│   ├── exports/                           # 84 Exported ONNX models for Jetson Nano
-│   └── {model}_{dataset}/                 # 84 Fine-tuned checkpoints (weights/best.pt)
+│   ├── pretrained/                        # Pretrained COCO baseline weights
+│   ├── exports/                           # Exported ONNX models for Jetson Nano
+│   └── {model}_{dataset}/                 # Fine-tuned checkpoints
 │
 ├── results/
-│   ├── task_001_pretrained_eval.md        # Pretrained zero-shot evaluation (84 models)
-│   ├── task_002_finetuned_eval.md         # Fine-tuned evaluation metrics (84 models)
+│   ├── task_001_pretrained_eval.md        # Pretrained zero-shot evaluation
+│   ├── task_002_finetuned_eval.md         # Fine-tuned evaluation metrics
 │   ├── summary_pretrained_vs_finetuned.md # Comparison & gain tables
-│   ├── task_003_inference.md              # Multi-resolution latency & FPS (252 runs)
+│   ├── task_003_inference.md              # Multi-resolution latency & FPS
 │   └── model_profiles_finetuned.md        # FLOPs, parameters, and memory profiling
 │
 ├── models/
-│   ├── export_onnx.py                     # Export PyTorch weights to ONNX with ONNX Slim
+│   ├── export_onnx.py                     # Export PyTorch weights to ONNX
 │   ├── model_registry.py                  # Model zoo loader
 │   └── profile_model.py                   # Parameter & FLOPs profiler
+│
 ├── edge_inference/
-│   ├── inference_trt.py                   # Package-free Jetson TensorRT runner
+│   ├── inference_trt.py                   # Jetson TensorRT runner
 │   ├── patch_onnx_trt8.py                 # Dynamic-grid compatibility rewrite
 │   ├── fold_static_pads.py                # Legacy YOLOv3 compatibility rewrite
-│   └── generate_report.py                 # Consolidated edge report generator
+│   └── generate_report.py                 # Edge report generator
 │
 ├── scripts/
 │   ├── setup.sh                           # Environment setup
 │   ├── run_test.sh                        # Task 1 runner
 │   ├── run_train.sh                       # Task 2 fine-tuning runner
-│   ├── run_inference.sh                   # Task 3 multi-size inference runner
-│   ├── run_rtx3060_inference.sh           # Portable 84-model RTX 3060 runner
-│   ├── run_edge.sh                        # Jetson Nano edge deployment script
-│   └── run_post_training.sh               # Post-training pipeline automation
+│   ├── run_inference.sh                   # Task 3 inference runner
+│   ├── run_rtx3060_inference.sh           # RTX 3060 runner
+│   ├── run_edge.sh                        # Jetson Nano deployment
+│   └── run_post_training.sh               # Post-training automation
 │
 ├── test.py                                # Task 1 evaluation entrypoint
 ├── train.py                               # Task 2 training entrypoint
-└── inference.py                           # Task 3 multi-resolution benchmarking
+└── inference.py                           # Task 3 benchmarking
 ```
 
 ---
